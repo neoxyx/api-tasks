@@ -89,6 +89,12 @@ Este proyecto proporciona una API RESTful en Laravel para gestionar usuarios y t
 #### 7. Eliminar tarea
 **DELETE** `/api/tasks/{id}`
 ```
+#### 8. Tarea programada
+Para que el scheduler corra, agrega el cronjob en el servidor ejecutando:
+crontab -e
+Y añade la siguiente línea:
+
+* * * * * php /ruta/a/tu/proyecto/artisan schedule:run >> /dev/null 2>&1
 
 ## Tecnologías utilizadas
 - Laravel
