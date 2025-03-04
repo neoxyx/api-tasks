@@ -35,7 +35,7 @@ Este proyecto proporciona una API RESTful en Laravel para gestionar usuarios y t
 
 ### Autenticación
 #### 1. Registrar usuario
-**POST** `/api/register`
+**POST** `/api/users`
 **Body:**
 ```json
 {
